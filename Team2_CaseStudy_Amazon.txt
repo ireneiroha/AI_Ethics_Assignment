@@ -1,0 +1,14 @@
+Case: Amazon’s Biased Hiring Tool
+
+Source of Bias:
+- Biased training data from a male-dominated industry history.
+
+Fixes:
+1. Use gender-balanced training data.
+2. Remove gender-associated terms.
+3. Apply fairness-aware algorithms.
+
+Metrics:
+- Disparate Impact Ratio
+- Equal Opportunity Difference
+- Demographic Parity

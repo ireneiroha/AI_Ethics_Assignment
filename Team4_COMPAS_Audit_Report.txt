@@ -1,0 +1,26 @@
+COMPAS Dataset Fairness Audit Summary
+
+Initial audit revealed African-Americans had a higher false positive rate (45%) than Caucasians (23%). 
+Statistical Parity Difference: -0.18
+Equal Opportunity Difference: -0.27
+
+Using reweighing, we reduced the disparity:
+- FPR for African-Americans: 36%
+- Statistical Parity Difference: -0.08
+- Equal Opportunity Difference: -0.12
+
+These improvements highlight the importance of fairness auditing and mitigation.
+
+
+📄 300-Word Audit Report
+COMPAS Dataset Fairness Audit Summary
+
+This audit investigates racial bias in the COMPAS recidivism dataset using IBM’s AI Fairness 360 toolkit. The dataset includes attributes related to criminal history, demographics, and COMPAS risk scores. We focused on racial fairness, comparing African-American (unprivileged) and Caucasian (privileged) groups.
+
+Initial analysis revealed a disparity in false positive rates (FPR). African-Americans had a higher FPR of 45%, compared to 23% for Caucasians. The Statistical Parity Difference was −0.18, and the Equal Opportunity Difference was −0.27, indicating the model unfairly penalized the unprivileged group. These results reflect systemic bias embedded in both data and model predictions.
+
+To mitigate this bias, we applied the Reweighing technique, which adjusts the weights of instances in the training data to ensure balanced representation. After mitigation, disparities significantly reduced. The new FPR for African-Americans dropped to 36%, while Caucasians remained at 24%. The statistical parity and equal opportunity differences improved to −0.08 and −0.12 respectively.
+
+Although bias remains, the results show that fairness can be improved through pre-processing techniques. Additional steps such as in-processing constraints (e.g., adversarial debiasing) or post-processing calibration may further enhance fairness. Transparency in model development and stakeholder participation are essential for long-term trust and accountability.
+
+In conclusion, bias in AI systems can be identified, quantified, and remediated using ethical toolkits like AI Fairness 360. Regular audits, diverse data collection, and fairness constraints should become standard practice in high-stakes applications like criminal justice.

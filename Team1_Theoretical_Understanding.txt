@@ -1,0 +1,34 @@
+
+Q1: Algorithmic Bias + Examples
+Definition: Algorithmic bias occurs when an AI system produces systematically prejudiced results due to erroneous assumptions in the machine learning process.
+
+Examples:
+
+A resume screening tool favoring male candidates due to biased training data.
+
+A credit scoring system assigning lower scores to minorities due to historical financial inequities.
+
+Q2: Transparency vs Explainability
+
+Transparency: The openness of the AI system’s structure, data sources, and processes.
+
+Explainability: The ability to interpret and understand how and why the AI made a decision.
+
+Importance:
+Transparency builds trust; explainability ensures accountability and allows for correction of harmful outcomes.
+
+Q3: GDPR Impact on AI
+
+Requires explicit user consent for data collection.
+
+Imposes the right to explanation for automated decisions.
+
+Encourages data minimization and privacy-by-design, limiting intrusive AI practices.
+
+Principles Matching
+
+Principle	Definition
+B) Non-maleficence	Ensuring AI does not harm individuals or society.
+C) Autonomy	Respecting users’ right to control their data and decisions.
+D) Sustainability	Designing AI to be environmentally friendly.
+A) Justice	Fair distribution of AI benefits and risks.

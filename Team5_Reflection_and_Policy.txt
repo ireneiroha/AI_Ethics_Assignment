@@ -1,0 +1,8 @@
+Reflection:
+In a project on student dropout prediction, I ensured fairness by anonymizing features and using balanced sampling. 
+Going forward, I will implement SHAP for interpretability and involve affected stakeholders.
+
+Bonus - Ethical AI in Healthcare Policy:
+1. Consent: Get informed patient consent, with opt-out options.
+2. Bias Mitigation: Use representative data, audit regularly.
+3. Transparency: Explain decisions, publish model risks, and data sources.
