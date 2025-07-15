@@ -28,7 +28,8 @@ Encourages data minimization and privacy-by-design, limiting intrusive AI practi
 Principles Matching
 
 Principle	Definition
-B) Non-maleficence	Ensuring AI does not harm individuals or society.
-C) Autonomy	Respecting users’ right to control their data and decisions.
-D) Sustainability	Designing AI to be environmentally friendly.
-A) Justice	Fair distribution of AI benefits and risks.
+Principle	Definition
+A) Justice Fair distribution of AI’s benefits and risks; ensuring no group is unfairly disadvantaged.
+B) Non-maleficence	Ensuring AI systems do not cause harm to individuals or society, either directly or indirectly.
+C) Autonomy	Respecting individuals’ rights to make decisions about their data and how it is used.
+D) Sustainability	Designing AI systems to be environmentally responsible and energy-efficient.
